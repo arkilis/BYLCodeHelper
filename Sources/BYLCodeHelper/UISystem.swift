@@ -10,17 +10,17 @@ import Foundation
 import UIKit
 
 
-class UISystem {
-    
-    // Get the screen width
-    public static func screenWidth() -> CGFloat {
-        return UIScreen.main.bounds.size.width
-    }
-    
-    // Get the screen height
-    public static func screenHeight() -> CGFloat {
-        return UIScreen.main.bounds.size.height
-    }
-    
-    
+public class UISystem {
+  
+  // Get the screen width
+  static func screenWidth() -> CGFloat {
+    return UIScreen.main.bounds.size.width
+  }
+  
+  // Get the screen height
+  static func screenHeight() -> CGFloat {
+    return UIScreen.main.bounds.size.height
+  }
+  
+  
 }
